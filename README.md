@@ -37,11 +37,16 @@ Navigate to 'http://localhost:7197/login' to view the website!
 #  Key Python Modules Used
 
 Flask: micro-framework for web application development
+
 pytest: framework for testing Python projects
+
 Jinga2 - templating engine
+
 SQLAlchemy - ORM (Object Relational Mapper)
 
 # Testing
 To run all the tests:
+
 python -m pytest -v
+
 python -m pytest --cov-report term-missing --cov=middleware
